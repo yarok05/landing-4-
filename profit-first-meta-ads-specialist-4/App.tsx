@@ -247,10 +247,11 @@ const App: React.FC = () => {
                 className="relative w-full max-w-[400px] aspect-[4/5] rounded-[3.5rem] overflow-hidden glass-card group shadow-2xl shadow-accent/10"
               >
                 <img 
-                  src={MY_PHOTO_URL} 
-                  alt="Ihor Yarovyi" 
-                  className="w-full h-full object-cover transition-all duration-700 scale-105 group-hover:scale-110 group-hover:brightness-110" 
-                />
+  src="/me.png"
+  alt="Ihor Yarovyi"
+  className="w-full h-full object-cover transition-all duration-700 scale-105 group-hover:scale-110 group-hover:brightness-110"
+/>
+
                 <div className="absolute inset-0 bg-gradient-to-t from-dark/90 via-transparent to-transparent" />
                 <div className="absolute bottom-10 left-10">
                   <h3 className="text-2xl font-outfit font-black uppercase tracking-tighter text-white">Ігор Яровий</h3>
